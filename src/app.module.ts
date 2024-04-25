@@ -17,7 +17,7 @@ import { RestaurantController } from './restaurant/restaurant.controller';
       logging: true
     }),
     TypeOrmModule.forFeature([Restaurant]) // Esto permite acceder a Repository
-
+    
   ],
   controllers: [RestaurantController],
   providers: [],
